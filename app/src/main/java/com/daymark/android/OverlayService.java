@@ -188,7 +188,7 @@ public class OverlayService extends Service {
         TextView eventName = new TextView(this);
         eventName.setText(DaymarkPrefs.title(this));
         eventName.setTextColor(DaymarkPrefs.color(this, "primary", DaymarkPrefs.DEFAULT_PRIMARY));
-        eventName.setTypeface(Typeface.create("sans-serif", Typeface.MEDIUM));
+        eventName.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
         eventName.setTextSize(Math.max(11, Math.min(17, wdp * 0.043f)));
         eventName.setGravity(Gravity.CENTER);
         eventName.setMaxLines(2);
